@@ -25,7 +25,7 @@
         --rotate-img: rotate(-30deg);
     }
     
-    @media screen and (mind-width:768px) {
+    @media screen and (min-width:768px) {
          :root {
             --big-font-size: 1.5rem;
             --bigger-font-size: 2rem;
