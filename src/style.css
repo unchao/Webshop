@@ -146,6 +146,7 @@
     }
     
     .nav__logo {
+        font-size: var(--bigger-font-size);
         font-weight: var(--font-semi-bold);
     }
     
