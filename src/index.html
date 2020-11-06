@@ -17,25 +17,27 @@
                 <i class='bx bxs-grid'></i>
             </div>
 
-            <a href="#" class="nav__logo">Alan</a>
+            <a href="./index.html" class="nav__logo">Alan</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">home</a></li>
-                    <li class="nav__item"><a href="#featured" class="nav__link ">featured</a></li>
-                    <!--<li class="nav__item"><a href="#women" class="nav__link ">women</a></li> -->
-                    <li class="nav__item"><a href="#new" class="nav__link ">new</a></li>
-                    <li class="nav__item"><a href="./shop.html" class="nav__link ">shop</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#featured" class="nav__link ">Featured</a></li>
+                    <li class="nav__item"><a href="#new" class="nav__link ">New</a></li>
+                    <li class="nav__item"><a href="./shop.html" class="nav__link ">Shop</a></li>
                 </ul>
             </div>
 
             <div class="nav__shop">
-                <i class='bx bx-cart'></i>
+                <a href="./check.html"><i class='bx bx-cart'></i></a>
             </div>
         </nav>
     </header>
 
     <main class="l-main">
+
+        <!-- Banner -->
+
         <section class="home" id="home">
             <div class="home__container bd-grid">
                 <div class="home__sneaker">
@@ -52,6 +54,7 @@
             </div>
         </section>
 
+        <!-- Destacados -->
 
         <section class="featured section" id="featured">
             <h2 class="section-title">FEATURED</h2>
@@ -60,7 +63,7 @@
                 <article class="sneaker">
                     <div class="sneaker__sale">Sale</div>
                     <img src="img/teclados/alloy-core-fps.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">HyperX Alloy Core FPS</span>
+                    <span class="sneaker__name">Alloy Core FPS</span>
                     <span class="sneaker__preci">$6,999.99</span>
                     <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
                 </article>
@@ -68,7 +71,7 @@
                 <article class="sneaker">
                     <div class="sneaker__sale">Sale</div>
                     <img src="img/teclados/alloy-elite-2.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">HyperX Alloy Elite 2</span>
+                    <span class="sneaker__name">Alloy Elite 2</span>
                     <span class="sneaker__preci">$6,999.99</span>
                     <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
                 </article>
@@ -76,7 +79,7 @@
                 <article class="sneaker">
                     <div class="sneaker__sale">Sale</div>
                     <img src="img/teclados/alloy-fps-pro.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">HyperX Alloy FPS pro</span>
+                    <span class="sneaker__name">Alloy FPS pro</span>
                     <span class="sneaker__preci">$6,999.99</span>
                     <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
                 </article>
@@ -84,7 +87,7 @@
                 <article class="sneaker">
                     <div class="sneaker__sale">Sale</div>
                     <img src="img/teclados/alloy-fps-rgb.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">HyperX Alloy FPS RGB</span>
+                    <span class="sneaker__name">Alloy FPS RGB</span>
                     <span class="sneaker__preci">$6,999.99</span>
                     <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
                 </article>
@@ -99,14 +102,32 @@
 
                 <article class="sneaker">
                     <div class="sneaker__sale">Sale</div>
-                    <img src="img/teclados/alloy-origins-core.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">HyperX Origins Core</span>
+                    <img src="img/teclados/redragon-diti.png" alt="" class="sneaker__img">
+                    <span class="sneaker__name">Redragon Diti</span>
+                    <span class="sneaker__preci">$6,999.99</span>
+                    <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
+                </article>
+
+                <article class="sneaker">
+                    <div class="sneaker__sale">Sale</div>
+                    <img src="img/teclados/60/K530-DRACONIC-1.png" alt="" class="sneaker__img">
+                    <span class="sneaker__name">Redragon Draconic</span>
+                    <span class="sneaker__preci">$6,999.99</span>
+                    <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
+                </article>
+
+                <article class="sneaker">
+                    <div class="sneaker__sale">Sale</div>
+                    <img src="img/teclados/Redragon Devarajas.png" alt="" class="sneaker__img">
+                    <span class="sneaker__name">Redragon Devarajas</span>
                     <span class="sneaker__preci">$6,999.99</span>
                     <a href="" class="button-light">Add to Cart <i class='bx bx-right-arrow-alt button-icon'></i></a>
                 </article>
 
             </div>
         </section>
+
+        <!-- Coleccion -->
 
         <section class="collection section">
             <div class="collection__container bd-grid">
@@ -132,11 +153,13 @@
             </div>
         </section>
 
+        <!-- Oferta -->
+
         <aection class="offer section">
             <div class="offer__container bd-grid">
                 <div class="offer__data">
                     <h3 class="offer__title">50% De Descuento</h3>
-                    <p class="offer__description">En productios HyperX</p>
+                    <p class="offer__description">En Auriculares</p>
                     <a href="#" class="button">Compra ahora</a>
                 </div>
 
