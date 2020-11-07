@@ -345,6 +345,8 @@
     
     .sneaker__pages {
         margin-top: var(--mb-6);
+        display: flex;
+        justify-content: center;
     }
     
     .sneaker__pag {
@@ -529,6 +531,22 @@
         font-size: var(--smaller-font-size);
         color: var(--dark-color-light);
         text-align: center;
+    }
+    
+    .banner {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        position: absolute;
+        background: var(--dark-color-light);
+        border-radius: .5rem;
     }
     
     @media screen and (min-width:576px) {
