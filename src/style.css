@@ -89,6 +89,12 @@
         text-align: center;
         letter-spacing: .1rem;
     }
+    /*--------------------------------*/
+    
+    .sneaker a {
+        cursor: pointer;
+    }
+    /*--------------------------------*/
     
     .section-title::after {
         content: '';
@@ -651,4 +657,110 @@
         .new__mens-img {
             margin-bottom: var(--mb-6);
         }
+    }
+    
+    .products__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .product i {
+        font-size: 25px;
+        background-color: var(--dark-color-lighten);
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .products__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 50%;
+        margin: 0 auto;
+        margin-top: 10vh;
+    }
+    
+    .products__header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        margin-bottom: -20px;
+    }
+    
+    .product__title {
+        width: 45%;
+        border-bottom: 2px solid var(--dark-color);
+    }
+    
+    .precio {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid var(--dark-color);
+    }
+    
+    .cantidad {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid var(--dark-color);
+    }
+    
+    .total {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid var(--dark-color);
+    }
+    
+    .products,
+    .productcard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .product {
+        width: 45%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 2px solid var(--dark-color);
+    }
+    
+    .products img {
+        width: 100px;
+    }
+    
+    .preciototalcontainer {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    .preciototal__titulo {
+        width: 30%;
+    }
+    
+    .preciototal {
+        width: 10%;
+    }
+    
+    .cantidad span {
+        margin: 0 5px;
+    }
+    
+    .cantidad i {
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+    .menos,
+    .mas {
+        background-color: red;
+        cursor: pointer;
+        font-size: 25px;
     }
